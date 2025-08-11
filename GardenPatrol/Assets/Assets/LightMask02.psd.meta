@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: a7d4d72253c1c1c4586cadd2d5ef067f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7901139823376340507
+    second: LightMask02_0
+  - first:
+      213: -8739286895013516875
+    second: LightMask02_1
+  - first:
+      213: 7307638144192626459
+    second: LightMask02_2
+  - first:
+      213: 7694710088140687225
+    second: LightMask02_3
+  - first:
+      213: 2543708723244020222
+    second: LightMask02_4
+  - first:
+      213: 2057394129105345599
+    second: LightMask02_5
+  - first:
+      213: 1769876782531412762
+    second: LightMask02_6
+  - first:
+      213: -3720413571142843462
+    second: LightMask02_7
+  - first:
+      213: -2460434721064388211
+    second: LightMask02_8
+  - first:
+      213: 3369796328136005888
+    second: LightMask02_9
+  - first:
+      213: 6346978590691245612
+    second: LightMask02_10
+  - first:
+      213: 2521949824549508752
+    second: LightMask02_11
+  - first:
+      213: 5239975155458919044
+    second: LightMask02_12
+  - first:
+      213: 1338325674874697657
+    second: LightMask02_13
+  - first:
+      213: -4173476101060537817
+    second: LightMask02_14
+  - first:
+      213: -3874810846865276788
+    second: LightMask02_15
+  - first:
+      213: -2326938881073820248
+    second: LightMask02_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightMask02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 953
+        width: 228
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b161a0daecc76ad60800000000000000
+      internalID: 7901139823376340507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_1
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 914
+        width: 633
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b92e782fd0d7b680800000000000000
+      internalID: -8739286895013516875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 557
+        width: 858
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f32b3bc22f96560800000000000000
+      internalID: 7307638144192626459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 525
+        width: 357
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9778d3d8e0a19ca60800000000000000
+      internalID: 7694710088140687225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_4
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 805
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1b50d4b911d4320800000000000000
+      internalID: 2543708723244020222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_5
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 447
+        width: 486
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c5c445f055d8c10800000000000000
+      internalID: 2057394129105345599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_6
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 636
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a130ff67e8ddf8810800000000000000
+      internalID: 1769876782531412762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 556
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab30d72919f6e5cc0800000000000000
+      internalID: -3720413571142843462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_8
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 71
+        width: 773
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d897be938a7caddd0800000000000000
+      internalID: -2460434721064388211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 11
+        width: 686
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00956ff08ebe3ce20800000000000000
+      internalID: 3369796328136005888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_10
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 375
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e3927866ff41850800000000000000
+      internalID: 6346978590691245612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_11
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 0
+        width: 280
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096d1a9e004cff220800000000000000
+      internalID: 2521949824549508752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_12
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 366
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a400d24a128b840800000000000000
+      internalID: 5239975155458919044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_13
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 231
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7f0bc4c10b29210800000000000000
+      internalID: 1338325674874697657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_14
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 228
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72254bd1995d416c0800000000000000
+      internalID: -4173476101060537817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 98
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80c3cc7018e93ac0800000000000000
+      internalID: -3874810846865276788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightMask02_16
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 8
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adcc839a6d05bfd0800000000000000
+      internalID: -2326938881073820248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LightMask02_0: 7901139823376340507
+      LightMask02_1: -8739286895013516875
+      LightMask02_10: 6346978590691245612
+      LightMask02_11: 2521949824549508752
+      LightMask02_12: 5239975155458919044
+      LightMask02_13: 1338325674874697657
+      LightMask02_14: -4173476101060537817
+      LightMask02_15: -3874810846865276788
+      LightMask02_16: -2326938881073820248
+      LightMask02_2: 7307638144192626459
+      LightMask02_3: 7694710088140687225
+      LightMask02_4: 2543708723244020222
+      LightMask02_5: 2057394129105345599
+      LightMask02_6: 1769876782531412762
+      LightMask02_7: -3720413571142843462
+      LightMask02_8: -2460434721064388211
+      LightMask02_9: 3369796328136005888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
