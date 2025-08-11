@@ -1737,8 +1737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aimTransform: {fileID: 373447968}
-  aimGunPoint: {fileID: 373447968}
-  bullet: {fileID: 2369182470158211638, guid: 6488492b5da6df14384c87b60c8b917c, type: 3}
+  aimGunPoint: {fileID: 137678744}
 --- !u!114 &2090185735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1751,6 +1750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049ff326f207f7749960128dce68f851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet: {fileID: 2369182470158211638, guid: 6488492b5da6df14384c87b60c8b917c, type: 3}
+  spreadshot: 0
 --- !u!1 &2132975963
 GameObject:
   m_ObjectHideFlags: 0
