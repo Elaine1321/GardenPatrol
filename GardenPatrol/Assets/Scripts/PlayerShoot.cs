@@ -8,7 +8,7 @@ public class PlayerShoot : MonoBehaviour
     private void Awake()
     {
         GetComponent<PlayerAim>().OnShoot += PlayerShoot_Shooting;
-        spreadshot = true;
+        //spreadshot = true;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
