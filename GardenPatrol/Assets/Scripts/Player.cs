@@ -40,4 +40,18 @@ public class Player : MonoBehaviour
             Body.linearVelocity = new Vector2(moveDirection.x* movespeed,moveDirection.y*movespeed);
         }
     }
+
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag =="eBullet")
+        {
+            this.gameObject.GetComponent<Health>().TakeDamage(2);
+        }
+
+        if(other.gameObject.tag =="Boss")
+        {
+            this.gameObject.GetComponent<Health>().TakeDamage(2);
+        }
+    }
 }

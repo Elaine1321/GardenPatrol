@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2369182470158211638}
   - component: {fileID: 7741854205196416554}
-  - component: {fileID: 897893326756869756}
   - component: {fileID: 855829865925816484}
   - component: {fileID: 5403956174634546426}
+  - component: {fileID: -8456835807421918392}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Bullet B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7709768512369925297}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1235, y: -0.4911, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.2472229, y: 0.4948568, z: 0.2473}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.83396226, g: 0, b: 0.72142684, a: 1}
+  m_Color: {r: 0.15831809, g: 0.8352941, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -90,18 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &897893326756869756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7709768512369925297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b23f4016c3f48440bc1be59bcbdcffa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &855829865925816484
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -165,3 +153,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-8456835807421918392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709768512369925297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a711d1363776a4abcb0f7b839205f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootDir: {x: 0, y: -1}
+  movespeed: 3
+  velocity: {x: 0, y: 0}

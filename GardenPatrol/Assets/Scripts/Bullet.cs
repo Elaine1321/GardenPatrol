@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Bullet : MonoBehaviour
 {
@@ -8,9 +10,21 @@ public class Bullet : MonoBehaviour
     {
         this.shootDir = ShootDir;
         transform.eulerAngles = new Vector3(0, 0, GenAngleFromVector(shootDir));
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 2f);
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Boss")
+        {
+            
+        Debug.Log("Hit!");
+        Destroy(gameObject);
+        other.gameObject.GetComponent<Boss>().TakeDamage(5);
+        }
+    }
+
+    
     private void Update()
     {
         float movespeed = 3;
