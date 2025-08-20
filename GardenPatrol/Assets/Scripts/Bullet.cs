@@ -22,6 +22,12 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject);
         other.gameObject.GetComponent<Boss>().TakeDamage(5);
         }
+
+        if(other.gameObject.tag== "Wall")
+        {
+            
+        Destroy(gameObject);
+        }
     }
 
     
