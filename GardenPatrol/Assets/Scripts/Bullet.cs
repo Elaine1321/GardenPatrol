@@ -1,6 +1,6 @@
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
@@ -15,22 +15,19 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.tag == "Boss")
+        if (other.gameObject.tag == "Boss")
         {
-            
-        Debug.Log("Hit!");
-        Destroy(gameObject);
-        other.gameObject.GetComponent<Boss>().TakeDamage(5);
+            Debug.Log("Hit!");
+            Destroy(gameObject);
+            other.gameObject.GetComponent<Boss>().TakeDamage(5);
         }
 
-        if(other.gameObject.tag== "Wall")
+        if (other.gameObject.tag == "Wall")
         {
-            
-        Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
 
-    
     private void Update()
     {
         float movespeed = 3;

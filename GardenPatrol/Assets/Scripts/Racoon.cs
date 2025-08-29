@@ -1,43 +1,48 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBullet : MonoBehaviour
+public class Racoon : MonoBehaviour
 {
-    public Vector2 shootDir = new Vector2(0, -1);
-    private float movespeed = 8;
-
-    public Vector2 velocity;
+    public bool moving;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start() { }
+    void Start()
+    {
+        moving = false;
+        StartCoroutine("Wait");
+    }
 
     // Update is called once per frame
     void Update()
     {
-        velocity = shootDir * movespeed;
+        if (moving == true)
+        {
+            this.transform.Translate(Vector3.down * Time.deltaTime * 10);
+        }
     }
 
-    private void FixedUpdate()
+    IEnumerator Wait()
     {
-        Vector2 pos = transform.position;
-
-        pos += velocity * Time.deltaTime;
-
-        transform.position = pos;
+        yield return new WaitForSeconds(1);
+        moving = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Wall")
         {
-            Destroy(gameObject);
+            Destroy(gameObject, 3);
         }
 
         if (other.gameObject.tag == "Player")
         {
             Destroy(gameObject);
             other.gameObject.GetComponent<Health>().TakeDamage(2);
+        }
+
+        if (other.gameObject.tag == "Trash")
+        {
+            Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "PBullet")
